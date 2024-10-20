@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="Es9m9n_g7NAClhTZE_hR">
-    <mxGraphModel dx="867" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,13 +34,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500.00142857142873" y="455" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="479" y="455" />
-              <mxPoint x="479" y="455" />
+              <mxPoint x="470" y="470" />
+              <mxPoint x="470" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G-tHBykxVCCYekR1XqNL-11" value="If (index &amp;lt; len(my_list))&lt;div&gt;and&amp;nbsp;&lt;/div&gt;&lt;div&gt;found == false&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="262.5" y="390" width="195" height="130" as="geometry" />
+        <mxCell id="G-tHBykxVCCYekR1XqNL-44" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G-tHBykxVCCYekR1XqNL-37">
+          <mxGeometry x="-0.222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-11" value="If (index &amp;lt; len(my_list))&lt;div&gt;and&amp;nbsp;&lt;/div&gt;&lt;div&gt;found == TRUE&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="400" width="197.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="G-tHBykxVCCYekR1XqNL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G-tHBykxVCCYekR1XqNL-13" target="G-tHBykxVCCYekR1XqNL-19">
           <mxGeometry relative="1" as="geometry">
@@ -80,7 +85,7 @@
         <mxCell id="G-tHBykxVCCYekR1XqNL-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G-tHBykxVCCYekR1XqNL-27" target="G-tHBykxVCCYekR1XqNL-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G-tHBykxVCCYekR1XqNL-27" value="print&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(&quot;flag found at index&quot; index)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="G-tHBykxVCCYekR1XqNL-27" value="output&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;flag found at&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;index&quot; index&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="760" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G-tHBykxVCCYekR1XqNL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G-tHBykxVCCYekR1XqNL-30">
@@ -96,8 +101,39 @@
         <mxCell id="G-tHBykxVCCYekR1XqNL-30" value="found = TRUE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G-tHBykxVCCYekR1XqNL-40" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="400" width="160" height="107.5" as="geometry" />
+        <mxCell id="G-tHBykxVCCYekR1XqNL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G-tHBykxVCCYekR1XqNL-40" target="G-tHBykxVCCYekR1XqNL-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-43" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G-tHBykxVCCYekR1XqNL-42">
+          <mxGeometry x="-0.2104" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-56" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G-tHBykxVCCYekR1XqNL-40" target="G-tHBykxVCCYekR1XqNL-58">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="740" y="458" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-40" value="found == FALSE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="412.5" width="170" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="593" as="sourcePoint" />
+            <mxPoint x="705" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="705" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-46" value="output &quot;The flag was&amp;nbsp;&lt;div&gt;not found&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="560" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tHBykxVCCYekR1XqNL-58" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="730" y="455.0000000000001" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
