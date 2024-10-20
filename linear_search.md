@@ -1,6 +1,8 @@
 # Linear search 
 ##### flow chart
 
+
+
 ##### pseudocode
 ```
 DECLARE my_list : ARRAY[1:4] OF CHAR
