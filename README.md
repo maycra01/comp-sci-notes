@@ -1,2 +1,2 @@
-# comp-sci-notes
+#  A level comp-sci-notes
 All my programming notes for compsci 
