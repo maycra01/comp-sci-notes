@@ -1,2 +1,2 @@
-#  A level computer science notes
-All my programming notes for compsci 
+#  A level computer science notes (Cambridge International AS & A Level Computer Science (9618)) 
+All my programming notes (and maybe theory) for compsci 
