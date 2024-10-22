@@ -1,4 +1,10 @@
-Binary Search 
+# Binary Search 
+binary search is more efficient if a list is already sorted. The value of the
+middle item in the list is first tested to see if it matches the required item,
+and the half of the list that does not contain the required item is discarded.
+Then, the next item of the list to be tested is the middle item of the half of the
+list that was kept. This is repeated until the required item is found or there is
+nothing left to test.
 
 pseudocode
 
@@ -27,7 +33,7 @@ WHILE (lower_bound <> upper_bound)  AND  (found = FALSE)
 	
 	IF flag > my_list[index] THEN
 		lower_bound ← index  + 1
-`	ENDIF
+	ENDIF
 
 
 	IF flag < my_list[index] THEN
