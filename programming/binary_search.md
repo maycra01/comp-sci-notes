@@ -59,7 +59,7 @@ flag = int(input("Please enter item to be found"))
 found = False
 index = 0
 
-while (found == False) and (lower_bound != upper_bound):
+while (found == False) and not(lower_bound > upper_bound):
     index = (upper_bound + lower_bound) // 2
     if flag == my_list[index]:
         found = True
