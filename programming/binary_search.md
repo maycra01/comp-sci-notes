@@ -25,7 +25,7 @@ lower_bound ← 1
 Index ← 1
 found ← FALSE
 
-WHILE (lower_bound <> upper_bound)  AND  (found = FALSE)
+WHILE NOT(lower_bound > upper_bound)  AND  (found = FALSE)
 	index ← (upper_bound + lower_bound) DIV 2
 	IF flag = my_list[index] then
 		found ← TRUE
